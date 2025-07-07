@@ -1,0 +1,24 @@
+{
+    "Yamaha VX Cruiser HO": {
+        "description": "Stock 1.8L High Output engine.",
+        "rpm_model": {
+            "speed_mph": [0, 5, 15, 25, 35, 45, 55, 65, 70],
+            "rpm":       [1300, 1500, 3500, 4500, 5500, 6200, 6800, 7500, 7800]
+        },
+        "fuel_model": {
+            "rpm": [1300, 3000, 4500, 5500, 6500, 7500, 7800],
+            "lph": [1.5, 7.5, 15, 25, 34, 55, 60]
+        }
+    },
+    "Sea-Doo GTI 170 (Example)": {
+        "description": "Example profile for a different model.",
+        "rpm_model": {
+            "speed_mph": [0, 5, 15, 25, 35, 45, 55, 65, 70],
+            "rpm":       [1400, 1600, 3800, 4800, 5800, 6500, 7000, 7600, 7900]
+        },
+        "fuel_model": {
+            "rpm": [1400, 3000, 4500, 5500, 6500, 7500, 7900],
+            "lph": [1.8, 8.0, 16, 27, 38, 58, 65]
+        }
+    }
+}
