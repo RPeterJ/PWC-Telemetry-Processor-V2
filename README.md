@@ -11,8 +11,8 @@ Table of Contents
 ________________________________________
 1. Quick Start: Generating Your First File
 Follow these steps to get your first telemetry file in minutes.
-1.	Launch the Application: Run the telemetry_app.py script. The main window will appear.
-2.	Select Your GPS File: Click the "Browse..." button and locate the .gpx, .fit, or .mp4 file from your jet ski ride.
+1.	Launch the Application: Run the PWC-Telmetry-Processor.py script. The main window will appear.
+2.	Select Your GPS File: Click the "Browse..." button and locate the .gpx file from your jet ski ride.
 3.	Choose a Jet Ski Profile: From the "Jet Ski Profile" dropdown, select the profile that best matches the PWC used for the ride (e.g., "Yamaha VX Cruiser HO").
 4.	Set Ride Conditions: Adjust the values for Rider Weight, Fuel Load, etc., to match the conditions of that specific trip. These act as modifiers for the calculation.
 5.	Generate Data: Click the green "Generate Telemetry Data" button.
