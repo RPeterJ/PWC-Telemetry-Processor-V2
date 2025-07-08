@@ -57,7 +57,7 @@ ________________________________________
 6.	Cumulative Calculation: Finally, it calculates the fuel used between each data point (usually one second) and adds it to a running total to get the "Fuel Used (L)" column.
 ________________________________________
 5. Supported File Formats
-•	Input: .gpx, .fit, .mp4 (from GoPro cameras with GPS enabled).
+•	Input: .gpx files
 •	Output: .csv (Comma-Separated Values), .xlsx (Microsoft Excel).
 o	Recommendation: Use .csv for maximum compatibility with telemetry overlay software like Telemetry Overlay, DashWare, or RaceRender.
 ________________________________________
@@ -65,8 +65,7 @@ ________________________________________
 •	Error: "Could not load 'profiles.json'..."
 o	Make sure the profiles.json file is in the same directory as the application script and that its format is valid. You can use an online JSON validator to check for errors like missing commas or brackets.
 •	Error: "Unsupported file type"
-o	The application only supports .gpx, .fit, and .mp4. Ensure your file has one of these extensions.
-•	Error: "No GPS5 stream found..." (for GoPro files)
+o	The application only supports .gpx files. Ensure your file has one of these extensions.
 o	This means the GPS was not turned on in your GoPro's settings during recording. The application cannot process video files without this embedded GPS data.
 •	The RPM or Fuel numbers seem too high/low.
 o	This is exactly what the Profile Manager is for! Open it and "train" the models to better match your real-world observations. Start by adjusting the RPM model first, as the fuel model depends on it.
